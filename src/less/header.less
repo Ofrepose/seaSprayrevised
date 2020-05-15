@@ -1,0 +1,79 @@
+//Libre+Baskerville|Noto+Sans
+
+.headerBackdrop{
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background-color: lighten(rgb(66, 182, 215),10%);
+  opacity: .65;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  //background-color: #D6DCF0;
+  //background-color: rgb(66, 182, 215);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  //color: black;
+  //color: #fff;
+
+  .leftSide{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    width: 40%;
+    height: 100%;
+    z-index: 100;
+    .contactTop{
+      margin: auto auto auto  10px;
+      font-size: 20px;
+      font-family: gPro;
+      height: 20px;
+      line-height: 20px;
+      color: white;
+    }
+    #logo {
+      background-image: url('../Components/Images/seaSpray22WHITE.webp');
+      width: 60px;
+      background-position: center;
+      height: 60px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      //align-content: center center;
+    }
+  }
+  .rightSide{
+    z-index: 100;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    .topLinks{
+      font-family: gPro;
+      letter-spacing: 2px;
+      font-size: 17.5px;
+      //padding: 0 15px;
+      transition: .10s all ease-in-out;
+      font-weight: 400;
+      line-height: 60px;
+
+
+      &:hover{
+        cursor: pointer;
+        transition: .10s all ease-in-out;
+        font-weight: 600;
+        letter-spacing: 1.9px;
+      }
+
+
+    }
+  }
+}

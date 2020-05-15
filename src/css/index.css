@@ -1,0 +1,542 @@
+.topDivMain {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../Components/Images/ss33DarkSuper.webp');
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  z-index: -1;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#topBarHeadlineDiv {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  margin: 0px 0px auto auto;
+  background-color: #89cff0;
+  background-color: #42b6d7;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 80px;
+}
+#topBarHeadlineContent {
+  display: block;
+  margin: auto;
+  width: 60vmax;
+  height: 100%;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  /* color: #89cff0; */
+  letter-spacing: 3px;
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'proxima_novaregular';
+  /* font-family: 'gPro'; */
+}
+.sectionOne {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+.sectionOne #logoHome {
+  background-image: url('../Components/Images/seaSpray22WHITE.webp');
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sectionOne #underTextMain {
+  display: block;
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  font-family: gProItalic;
+  font-size: 30px;
+  text-align: center;
+}
+.sectionOne #donateItem {
+  display: flex;
+  flex-wrap: wrap;
+  /* min-width: 20%; */
+  width: 300px;
+  min-height: 32px;
+  max-height: 32px;
+  margin: 50px auto auto auto;
+  border-radius: 43.5px;
+  background-color: #89cff0;
+  background-color: #42b6d7;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2); */
+  z-index: 200;
+  transition: 0.25s all ease-in-out;
+}
+.sectionOne #donateItem:hover {
+  cursor: pointer;
+  background-color: #289dbe;
+  transition: 0.25s all ease-in-out;
+}
+.sectionOne #donateItem #donateItemC {
+  /* font-family: 'proxima_novaregular'; */
+  font-family: 'gPro';
+  /* font-size: 20px; */
+  font-size: 17px;
+  min-height: 17px;
+  max-height: 17px;
+  line-height: 17px;
+  letter-spacing: 6px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.headerBackdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #6cc6e0;
+  opacity: 0.65;
+}
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+header .leftSide {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  width: 40%;
+  height: 100%;
+  z-index: 100;
+}
+header .leftSide .contactTop {
+  margin: auto auto auto  10px;
+  font-size: 20px;
+  font-family: gPro;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+}
+header .leftSide #logo {
+  background-image: url('../Components/Images/seaSpray22WHITE.webp');
+  width: 60px;
+  background-position: center;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .rightSide {
+  z-index: 100;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+header .rightSide .topLinks {
+  font-family: gPro;
+  letter-spacing: 2px;
+  font-size: 17.5px;
+  transition: 0.1s all ease-in-out;
+  font-weight: 400;
+  line-height: 60px;
+}
+header .rightSide .topLinks:hover {
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+  font-weight: 600;
+  letter-spacing: 1.9px;
+}
+footer {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+footer .leftSide {
+  height: 140px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+footer .leftSide .lineContent {
+  width: 100%;
+  font-family: gPro;
+  font-size: 17px;
+  text-align: center;
+  height: 17px;
+}
+footer .rightSide {
+  display: flex;
+  flex-wrap: wrap;
+  height: 140px;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+}
+footer .rightSide #iconFBF {
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+  background-image: url('../Components/Images/SSfacebook.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .rightSide #iconTF {
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  margin-left: 10px;
+  background-image: url('../Components/Images/SSinstagram.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .bottomSide {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-family: gPro;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+#topDivMainEnrollment {
+  background-image: url('../Components/Images/ss266.webp');
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  z-index: -1;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sectionOne {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+.sectionOne .title {
+  font-family: 'gProItalic';
+  font-size: 90px;
+  min-height: 90px;
+  max-height: 90px;
+  letter-spacing: 3px;
+  min-width: 100%;
+  max-width: 100%;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+.sectionOne .underTitle {
+  font-family: 'gPro';
+  font-size: 22px;
+  min-height: 22px;
+  max-height: 1000px;
+  min-width: 70%;
+  max-width: 70%;
+  letter-spacing: 2px;
+  color: #fff;
+  letter-spacing: 1.5;
+  margin: 30px auto;
+  text-align: center;
+  white-space: pre-line;
+}
+.sectionOne .buttonDiv {
+  width: 100%;
+}
+.sectionOne #donateItem {
+  display: flex;
+  flex-wrap: wrap;
+  /* min-width: 20%; */
+  width: 300px;
+  min-height: 32px;
+  max-height: 32px;
+  margin: 50px auto auto auto;
+  border-radius: 43.5px;
+  background-color: #89cff0;
+  background-color: #42b6d7;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2); */
+  z-index: 200;
+  transition: 0.25s all ease-in-out;
+}
+.sectionOne #donateItem:hover {
+  cursor: pointer;
+  background-color: #289dbe;
+  transition: 0.25s all ease-in-out;
+}
+.sectionOne #donateItem #donateItemC {
+  /* font-family: 'proxima_novaregular'; */
+  font-family: 'gPro';
+  /* font-size: 20px; */
+  font-size: 17px;
+  min-height: 17px;
+  max-height: 17px;
+  line-height: 17px;
+  letter-spacing: 6px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.sectionTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 80vh;
+  width: 100%;
+  background-color: #96d7e9;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.sectionTwo #sectionTwoTitle {
+  width: 100%;
+  height: 30px;
+  font-family: gPro;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.sectionTwo #sectionTwoUnder {
+  margin: 20px auto;
+  width: 100%;
+  font-family: gPro;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+.sectionTwo #moreInfoForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 40%;
+  height: calc(100% - 150px);
+}
+.sectionTwo #moreInfoForm label {
+  font-family: gPro;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  width: 100%;
+  margin: 20px 0;
+}
+.sectionTwo #moreInfoForm input {
+  border-radius: 15px;
+  border: none;
+  height: 60px;
+  width: 425px;
+  font-family: gPro;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 20px auto 20px 0px;
+  letter-spacing: 2px;
+  color: black;
+}
+.sectionTwo #moreInfoForm input:focus,
+.sectionTwo #moreInfoForm select:focus,
+.sectionTwo #moreInfoForm textarea:focus,
+.sectionTwo #moreInfoForm button:focus {
+  outline: none;
+  border: 1.45px solid #42b6d7;
+  border-radius: 15px;
+}
+.sectionTwo #moreInfoForm .infoFormInput {
+  display: block;
+}
+.sectionTwo #contactUs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+.genericTitle {
+  width: 100%;
+  height: 30px;
+  font-family: gPro;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.genericUnder {
+  margin: 15px auto;
+  width: 100%;
+  font-family: gPro;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.buttonBorder {
+  margin: 15px auto;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  font-family: gPro;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: black;
+  background-color: white;
+  /* box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2); */
+  z-index: 200;
+  transition: 0.25s all ease-in-out;
+}
+.buttonBorder:hover {
+  background-color: white;
+  transition: 0.25s all ease-in-out;
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+}
+.buttonBorder2 {
+  margin: 15px auto 15px 0px;
+  width: 200px;
+  height: 50px;
+  border-radius: 43.5px;
+  border: 1px solid black;
+  font-family: gPro;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: black;
+  background-color: white;
+  transition: 0.25s all ease-in-out;
+}
+.buttonBorder2:hover {
+  background-color: white;
+  transition: 0.25s all ease-in-out;
+  cursor: pointer;
+}
+section.employmentDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+section.employmentDiv #logoBadge {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../Components/Images/seaSpray22WHITE.webp');
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 600px;
+  max-height: 600px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-content: center center;
+  margin: 40px auto 0px auto;
+  opacity: 0.05;
+  z-index: -1;
+}
+section.employmentDiv .basicDivTitleLarge {
+  font-family: 'gProItalic';
+  font-size: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  min-width: 100%;
+  max-width: 100%;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+section.employmentDiv .basicDivContentRegular {
+  display: block;
+  height: 300px;
+  font-family: 'gPro';
+  font-size: 20px;
+  white-space: pre-wrap;
+  min-width: 50%;
+  max-width: 50%;
+  color: black;
+  letter-spacing: 1.5px;
+  margin: 30px auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: default;
+}
+@font-face {
+  font-family: 'gPro';
+  src: url('../css/gProRegular.woff2') format('woff2'), url('../css/gProRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gProItalic';
+  src: url('../css/gProItalic.woff2') format('woff2'), url('../css/gProItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novathin';
+  src: url('../css/proximanovat-thin-webfont.woff2') format('woff2'), url('../css/proximanovat-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_novaregular';
+  src: url('../css/proximanova-regular-webfont.woff2') format('woff2'), url('../css/proximanova-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
